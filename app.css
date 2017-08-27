@@ -1,0 +1,17 @@
+body, ul, li, div, p, span {margin: 0; border: 0; padding: 0;}
+body{font-size: 16px; font-family: 'Arial'; color: #000}
+
+.searchComponent{width: 1024px;margin:0 auto;margin-top: 20px; text-align: center;}
+.searchComponent input{width: 80%; padding-left: 10px;border: 1px solid #999; border-radius: 5px; color: #000;font-size: 16px;height: 35px;}
+
+
+
+
+#wrapper h2{font-size: 20px; font-weight: normal; color: #70777B;}
+#wrapper .gridContainer {width: 1024px; margin: 0 auto;}
+#wrapper ul{width: 100%;border-left: 1px solid #999; border-right: 1px solid #999;}
+#wrapper .gridContainer ul li{list-style-type: none; border-bottom: 1px solid #999; width: 100%;}
+#wrapper .gridContainer ul li.policyDetailsHeader{border-top: 1px solid #999; background-color: #ACAEAF;}
+#wrapper .gridContainer ul li div{padding: 5px;width: 32%; display: inline-block;vertical-align: middle}
+#wrapper .gridContainer ul li.policyDetailsHeader div{text-align: center; font-weight: bold;}
+#wrapper .gridContainer ul li .policyNumber, #wrapper .gridContainer ul li .brokerName{border-right: 1px solid #999;}
